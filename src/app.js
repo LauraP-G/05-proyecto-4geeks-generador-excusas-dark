@@ -23,9 +23,9 @@ window.onload = function() {
   let randoWhat = what[Math.floor(Math.random() * what.length)];
   let randoWhen = when[Math.floor(Math.random() * when.length)];
 
-  let excuseRandom = `${randomWho} ${randomAction} ${randoWhat} ${randoWhen}`;
-
-  document.getElementById("excuse").innerHTML = excuseRandom;
+  document.getElementById(
+    "excuse"
+  ).innerHTML = `${randomWho} ${randomAction} ${randoWhat} ${randoWhen}`;
   //write your code here
   console.log("Hello Rigo from the console!");
 };
